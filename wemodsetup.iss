@@ -18,6 +18,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
+DisableWelcomePage=no
 LicenseFile=C:\Users\aqax\Documents\ApacheLic.txt
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
