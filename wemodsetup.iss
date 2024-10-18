@@ -26,6 +26,7 @@ OutputBaseFilename=wemodsetup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+WizardSmallImageFile=WeMod.bmp
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -73,8 +74,9 @@ begin
 end;
 
 [Files]
-Source: "LaDivinaTragedia.mp3"; DestDir: "{tmp}"; Flags: ignoreversion
+Source: "LaDivinaTragedia.mp3"; DestDir: "{tmp}"; Flags: dontcopy ignoreversion
 Source: "C:\Include_InnoSetup\bass.dll"; DestDir: {tmp}; Flags: dontcopy ignoreversion
+Source: "WeMod.bmp"; DestDir: {tmp}; Flags: dontcopy ignoreversion
 Source: "C:\Users\aqax\AppData\Local\WeMod\app-9.10.5\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\aqax\AppData\Local\WeMod\app-9.10.5\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
