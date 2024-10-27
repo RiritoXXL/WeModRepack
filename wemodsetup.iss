@@ -57,7 +57,6 @@ const
 var
   mp3Handle: HWND;
   mp3Name: string;
-  vlcstring: string;
 procedure InitializeWizard();
 begin
     ExtractTemporaryFile('LaDivinaTragedia.mp3');
